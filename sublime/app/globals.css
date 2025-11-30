@@ -1,0 +1,16 @@
+
+
+body {
+  /* Use linear-gradient for the background-image property */
+  background-image: linear-gradient(to top, #d3d3d3, #ffffff);
+  
+  /* Ensure the background covers the full height of the viewport */
+  min-height: 100vh;
+    background-size: cover;
+  
+  /* Prevents the gradient from repeating if content is short */
+  background-repeat: no-repeat;
+  
+  /* Optional: Fallback color for older browsers */
+  background-color: #f9f9f8; 
+}
